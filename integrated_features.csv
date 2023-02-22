@@ -1,0 +1,36 @@
+GBM,55,3
+GBM,85,5
+KNN,94,5
+GBM,47,7
+Random Forest,76,8
+XGBoost,43,7
+GBM,22,3
+GBM,74,8
+XGBoost,95,8
+GBM,64,3
+GBM,40,8
+Logistic,76,3
+Random Forest,54,6
+Random Forest,59,3
+GBM,70,4
+GBM,28,8
+XGBoost,57,8
+XGBoost,92,3
+Random Forest,55,6
+Logistic,90,3
+GBM,45,8
+Random Forest,92,6
+Logistic,60,5
+XGBoost,60,4
+KNN,53,6
+GBM,28,7
+GBM,86,3
+Random Forest,43,7
+KNN,34,3
+GBM,28,5
+Logistic,79,5
+KNN,66,3
+Logistic,22,4
+XGBoost,87,5
+GBM,88,8
+Random Forest,79,5
