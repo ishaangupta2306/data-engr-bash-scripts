@@ -11,7 +11,16 @@ Create a default match that prints out 'Unknown model in FILE where FILE is the 
 Then run your script.)
 COMMENTS
 
-for file in datasets/model_out/*
-do
-    echo $file
+for file in datasets/model_out/*; do
+    # chmod u+r $file
+    case "$($cat "$file")" in
+        *"Random Forest"*|*GBM*|*XGBoost*)
+            mv "$file" output/tree_models/
+        ;;
+        *KNN*|*Logistic*)
+            rm "$file"
+        ;;
+        *)
+            echo "Unknown model in FILE where FILE is the filename"
+    esac
 done
